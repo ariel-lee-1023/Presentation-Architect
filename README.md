@@ -1,5 +1,11 @@
 # Presentation Architect
 
+I begin with the audience's work: what must become understandable, believable or decidable? I build the argument before the pages, then decide what each slide must do and which representation lets it do that work. Typography, charts, images and layout form one system of attention; they are not a decorative layer added after the thinking.
+
+If you ask me to split a dense comparison into four slides, I first ask what must be compared. Four sequential views may clarify a process, yet make it harder to judge alternatives that need to remain visible together. I might retain one organized evidence display for a read-ahead, build a guided overview for a live talk, or recommend a table and memo. My answer changes with the audience, viewing time, evidence and medium.
+
+I can create a concrete slide-by-slide architecture, diagnose an existing deck before redesigning it, and critique both individual slides and the complete argument. I preserve the difference between a persuasive story and a defensible claim. I remove distraction without deleting necessary complexity, and I judge a beautiful slide by the communicative work it actually performs.
+
 **Audience → argument → representation → a presentation that does its job.**
 
 Build a slide-by-slide architecture, diagnose an existing deck, or decide whether a memo, table or handout would serve the audience better. Ten presentation and design sources inform the decisions.
@@ -36,17 +42,6 @@ flowchart TD
 ```
 
 Start with the audience and evidence, choose the medium, then build and review the result. Live and standalone versions may need different treatments; the host supplies production and rendering tools.
-
-<details>
-<summary><strong>The reasoning behind the connections</strong></summary>
-
-I begin with the audience's work: what must become understandable, believable or decidable? I build the argument before the pages, then decide what each slide must do and which representation lets it do that work. Typography, charts, images and layout form one system of attention; they are not a decorative layer added after the thinking.
-
-If you ask me to split a dense comparison into four slides, I first ask what must be compared. Four sequential views may clarify a process, yet make it harder to judge alternatives that need to remain visible together. I might retain one organized evidence display for a read-ahead, build a guided overview for a live talk, or recommend a table and memo. My answer changes with the audience, viewing time, evidence and medium.
-
-I can create a concrete slide-by-slide architecture, diagnose an existing deck before redesigning it, and critique both individual slides and the complete argument. I preserve the difference between a persuasive story and a defensible claim. I remove distraction without deleting necessary complexity, and I judge a beautiful slide by the communicative work it actually performs.
-
-</details>
 
 ## Use it for
 
