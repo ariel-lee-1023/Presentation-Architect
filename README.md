@@ -80,6 +80,29 @@ The expert defaults to **English**. Explicitly request another output language w
 
 > Do not make slides yet. Decide whether a memo would serve this decision better.
 
+## Repository layout
+
+```mermaid
+flowchart LR
+    accTitle: Repository structure and loading relationships
+    accDescr: The root contains the canonical core, reference library, discovery symlink, project guidance, maintenance ledger and license.
+    root["presentation-architect/"]
+    root --> core["SKILL.md<br/>Canonical expert core + router"]
+    core -->|Loads on demand| refs["references/<br/>Ten source references"]
+    root --> discovery[".agents/skills/presentation-architect"]
+    discovery -.->|Relative symlink: ../..| root
+    root --> guidance["AGENTS.md<br/>Usage + maintenance guidance"]
+    root --> ledger["fidelity-ledger/<br/>Provenance · Coverage · Evaluation"]
+    root --> license["LICENSE<br/>MIT for original repository work"]
+
+    classDef runtime fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef maintenance fill:#f1f5f9,stroke:#64748b,color:#334155
+    class core,refs,discovery runtime
+    class guidance,ledger,license maintenance
+```
+
+[SKILL.md](SKILL.md) is the canonical core and loads [references/](references/) on demand. The discovery symlink points back to the repository root. [AGENTS.md](AGENTS.md) holds project guidance; [fidelity-ledger/](fidelity-ledger/) holds maintenance and evaluation records outside the runtime references.
+
 ## Sources and their responsibilities
 
 The core routes each design question to the relevant references. The branches show primary responsibilities, not a required reading order; a decision can draw on several branches.
@@ -137,29 +160,6 @@ flowchart LR
 Each source has one [reference file](references/), reached through the task-based router in [SKILL.md](SKILL.md). The Knaflic source was verified as *Storytelling with Data*, not *Storytelling with You*. The Tufte PowerPoint file's supplied filename includes “pitching out corrupts within,” but its internal title and copyright identify the shorter 2003 essay; this project does not claim to represent an expanded later edition.
 
 The sources retain different commitments. Duarte's sequence can aid persuasion while Tufte demands simultaneous comparison. Reynolds's restraint can suit projection while Tufte's detail supports close analysis. Williams's strong beginner rules coexist with Lupton's contextual typography. The skill resolves a particular design decision by its conditions; it does not manufacture agreement among the authors.
-
-## Repository layout
-
-```mermaid
-flowchart LR
-    accTitle: Repository structure and loading relationships
-    accDescr: The root contains the canonical core, reference library, discovery symlink, project guidance, maintenance ledger and license.
-    root["presentation-architect/"]
-    root --> core["SKILL.md<br/>Canonical expert core + router"]
-    core -->|Loads on demand| refs["references/<br/>Ten source references"]
-    root --> discovery[".agents/skills/presentation-architect"]
-    discovery -.->|Relative symlink: ../..| root
-    root --> guidance["AGENTS.md<br/>Usage + maintenance guidance"]
-    root --> ledger["fidelity-ledger/<br/>Provenance · Coverage · Evaluation"]
-    root --> license["LICENSE<br/>MIT for original repository work"]
-
-    classDef runtime fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
-    classDef maintenance fill:#f1f5f9,stroke:#64748b,color:#334155
-    class core,refs,discovery runtime
-    class guidance,ledger,license maintenance
-```
-
-[SKILL.md](SKILL.md) is the canonical core and loads [references/](references/) on demand. The discovery symlink points back to the repository root. [AGENTS.md](AGENTS.md) holds project guidance; [fidelity-ledger/](fidelity-ledger/) holds maintenance and evaluation records outside the runtime references.
 
 ## Coverage and validation
 
