@@ -1,10 +1,52 @@
 # Presentation Architect
 
+**Audience → argument → representation → a presentation that does its job.**
+
+Build a slide-by-slide architecture, diagnose an existing deck, or decide whether a memo, table or handout would serve the audience better. Ten presentation and design sources inform the decisions.
+
+[Install](#installation) · [Example requests](#example-requests) · [Source map](#sources-and-their-responsibilities) · [Repository map](#repository-layout) · [Validation](#coverage-and-validation)
+
+## How it works
+
+```mermaid
+flowchart TD
+    accTitle: Presentation architecture workflow
+    accDescr: Audience and evidence guide the argument, medium, visual system and final artifact review.
+    material["Reports · Research · Data"] --> audience
+    deck["Existing deck · Design problem"] --> audience
+    audience["AUDIENCE & CONDITIONS<br/>What must become understandable,<br/>believable or decidable?"]
+    audience --> argument["ARGUMENT<br/>Governing question · Claims · Evidence"]
+    argument --> medium{"Which medium serves the task?"}
+    medium -->|Presentation| sequence["SEQUENCE & REPRESENTATION<br/>Slide purpose · Comparison · Visual form"]
+    sequence --> system["VISUAL SYSTEM<br/>Type · Charts · Images · Layout"]
+    system --> live["Live talk<br/>Slides + speaker notes"]
+    system --> read["Standalone read-ahead<br/>Context + evidence on the page"]
+    medium -->|Another format| alternative["Memo · Table · Handout"]
+    live --> review["REVIEW IN THE HOST<br/>Argument · Legibility · Actual artifact"]
+    read --> review
+    alternative --> review
+    review -.->|Revise where needed| argument
+
+    classDef focus fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef output fill:#dcfce7,stroke:#15803d,color:#14532d
+    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f
+    class audience,argument,sequence,system focus
+    class live,read,alternative output
+    class medium,review decision
+```
+
+Start with the audience and evidence, choose the medium, then build and review the result. Live and standalone versions may need different treatments; the host supplies production and rendering tools.
+
+<details>
+<summary><strong>The reasoning behind the connections</strong></summary>
+
 I begin with the audience's work: what must become understandable, believable or decidable? I build the argument before the pages, then decide what each slide must do and which representation lets it do that work. Typography, charts, images and layout form one system of attention; they are not a decorative layer added after the thinking.
 
 If you ask me to split a dense comparison into four slides, I first ask what must be compared. Four sequential views may clarify a process, yet make it harder to judge alternatives that need to remain visible together. I might retain one organized evidence display for a read-ahead, build a guided overview for a live talk, or recommend a table and memo. My answer changes with the audience, viewing time, evidence and medium.
 
 I can create a concrete slide-by-slide architecture, diagnose an existing deck before redesigning it, and critique both individual slides and the complete argument. I preserve the difference between a persuasive story and a defensible claim. I remove distraction without deleting necessary complexity, and I judge a beautiful slide by the communicative work it actually performs.
+
+</details>
 
 ## Use it for
 
@@ -45,6 +87,43 @@ The expert defaults to **English**. Explicitly request another output language w
 
 ## Sources and their responsibilities
 
+The core routes each design question to the relevant references. The branches show primary responsibilities, not a required reading order; a decision can draw on several branches.
+
+```mermaid
+flowchart LR
+    accTitle: Ten sources and their primary responsibilities
+    accDescr: The skill routes questions to audience and story, representation and visual system, or evidence and medium references.
+    core["Presentation Architect<br/>SKILL.md · Task-based router"]
+    core --> story["Audience & story"]
+    core --> design["Representation & visual system"]
+    core --> evidence["Evidence & medium"]
+
+    story --> resonate["Duarte · Resonate<br/>Audience transformation + narrative"]
+    story --> zen["Reynolds · Presentation Zen<br/>Preparation + speaker-slide relationship"]
+
+    design --> slideology["Duarte · slide:ology<br/>Ideas into visual slides"]
+    design --> grid["Müller-Brockmann · Grid Systems<br/>Spatial architecture + repeatable layouts"]
+    design --> type["Lupton · Thinking with Type<br/>Hierarchy + reading structure"]
+    design --> repair["Williams · The Non-Designer's Design Book<br/>Visual diagnosis + repair"]
+
+    evidence --> cairo["Cairo · The Functional Art<br/>Encoding + explanatory graphics"]
+    evidence --> envision["Tufte · Envisioning Information<br/>Dense evidence + simultaneous comparison"]
+    evidence --> powerpoint["Tufte · The Cognitive Style of PowerPoint<br/>Slideware critique + medium choice"]
+    evidence --> data["Knaflic · Storytelling with Data<br/>Analytical story + chart emphasis"]
+
+    classDef core fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef story fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    classDef design fill:#dcfce7,stroke:#15803d,color:#14532d
+    classDef evidence fill:#fef3c7,stroke:#b45309,color:#78350f
+    class core core
+    class story,resonate,zen story
+    class design,slideology,grid,type,repair design
+    class evidence,cairo,envision,powerpoint,data evidence
+```
+
+<details>
+<summary><strong>Full source titles, supplied editions and responsibilities</strong></summary>
+
 | Supplied source | Edition represented | Responsibility |
 |---|---|---|
 | Nancy Duarte, *Resonate: Present Visual Stories That Transform Audiences* | 2010 | Audience transformation and narrative architecture. |
@@ -58,20 +137,34 @@ The expert defaults to **English**. Explicitly request another output language w
 | Edward R. Tufte, *The Cognitive Style of PowerPoint* | Supplied September 2003 essay | Adversarial critique of slideware and medium choice. |
 | Cole Nussbaumer Knaflic, *Storytelling with Data: A Data Visualization Guide for Business Professionals* | 2015 | Analytical storytelling, chart choice, emphasis and annotation. |
 
+</details>
+
 Each source has one [reference file](references/), reached through the task-based router in [SKILL.md](SKILL.md). The Knaflic source was verified as *Storytelling with Data*, not *Storytelling with You*. The Tufte PowerPoint file's supplied filename includes “pitching out corrupts within,” but its internal title and copyright identify the shorter 2003 essay; this project does not claim to represent an expanded later edition.
 
 The sources retain different commitments. Duarte's sequence can aid persuasion while Tufte demands simultaneous comparison. Reynolds's restraint can suit projection while Tufte's detail supports close analysis. Williams's strong beginner rules coexist with Lupton's contextual typography. The skill resolves a particular design decision by its conditions; it does not manufacture agreement among the authors.
 
 ## Repository layout
 
-```text
-SKILL.md                                  # always-loaded expert core and router
-references/reference-*.md                  # ten source references, loaded on demand
-.agents/skills/presentation-architect      # relative symlink to repository root
-AGENTS.md                                 # project usage and maintenance guidance
-fidelity-ledger/                          # provenance, coverage, checks and evaluation status
-LICENSE
+```mermaid
+flowchart LR
+    accTitle: Repository structure and loading relationships
+    accDescr: The root contains the canonical core, reference library, discovery symlink, project guidance, maintenance ledger and license.
+    root["presentation-architect/"]
+    root --> core["SKILL.md<br/>Canonical expert core + router"]
+    core -->|Loads on demand| refs["references/<br/>Ten source references"]
+    root --> discovery[".agents/skills/presentation-architect"]
+    discovery -.->|Relative symlink: ../..| root
+    root --> guidance["AGENTS.md<br/>Usage + maintenance guidance"]
+    root --> ledger["fidelity-ledger/<br/>Provenance · Coverage · Evaluation"]
+    root --> license["LICENSE<br/>MIT for original repository work"]
+
+    classDef runtime fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef maintenance fill:#f1f5f9,stroke:#64748b,color:#334155
+    class core,refs,discovery runtime
+    class guidance,ledger,license maintenance
 ```
+
+[SKILL.md](SKILL.md) is the canonical core and loads [references/](references/) on demand. The discovery symlink points back to the repository root. [AGENTS.md](AGENTS.md) holds project guidance; [fidelity-ledger/](fidelity-ledger/) holds maintenance and evaluation records outside the runtime references.
 
 ## Coverage and validation
 
