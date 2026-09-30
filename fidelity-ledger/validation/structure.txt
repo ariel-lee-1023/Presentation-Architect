@@ -1,0 +1,102 @@
+{
+  "errors": [],
+  "warnings": [],
+  "facts": {
+    "skill_root": ".",
+    "discovery_entry": ".agents/skills/presentation-architect",
+    "layout": "published-repo",
+    "license": {
+      "spdx_id": "MIT",
+      "standard_text": true,
+      "copyright_notices": [
+        "Copyright (c) 2026 Ariel Lee"
+      ]
+    },
+    "master_body_tokens": 3574,
+    "master_budget": 4050,
+    "master_capabilities": 6,
+    "references": {
+      "reference-cairo-functional-art.md": {
+        "tokens": 3950,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 17,
+        "budget": 9485
+      },
+      "reference-duarte-resonate.md": {
+        "tokens": 3930,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 9,
+        "budget": 7800
+      },
+      "reference-duarte-slideology.md": {
+        "tokens": 4137,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 12,
+        "budget": 8496
+      },
+      "reference-knaflic-storytelling-with-data.md": {
+        "tokens": 3826,
+        "cap": 19500,
+        "depth": "study",
+        "type": "technical",
+        "sections": 10,
+        "budget": 10650
+      },
+      "reference-lupton-thinking-with-type.md": {
+        "tokens": 3936,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 3,
+        "budget": 5898
+      },
+      "reference-muller-brockmann-grid-systems.md": {
+        "tokens": 3392,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 24,
+        "budget": 10648
+      },
+      "reference-reynolds-presentation-zen.md": {
+        "tokens": 4278,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 11,
+        "budget": 8275
+      },
+      "reference-tufte-cognitive-style-powerpoint.md": {
+        "tokens": 3122,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 9,
+        "budget": 7800
+      },
+      "reference-tufte-envisioning-information.md": {
+        "tokens": 3422,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 6,
+        "budget": 6974
+      },
+      "reference-williams-non-designers-design-book.md": {
+        "tokens": 4143,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 16,
+        "budget": 9300
+      }
+    },
+    "books": 10
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "generated": "2026-09-30",
+  "author": "Ariel Lee",
+  "purpose": "Presentation architecture, visual communication, and information design",
+  "default_language": "English",
+  "language_basis": "Nine sources are principally English; the bilingual Grid Systems is represented through its English text. English is the principal substantive language. The user chat language was not used to infer the expert default.",
+  "source_policy": "User-supplied local sources only. Raw books, full extraction, screenshots and private absolute paths are excluded from this repository.",
+  "sources": [
+    {
+      "id": "duarte-resonate",
+      "reference": "references/reference-duarte-resonate.md",
+      "edition": "2010",
+      "section_count": 9,
+      "section_basis": "Narrative architecture",
+      "markdown": {
+        "filename": "resonate-PRESENT-VISUAL-STORIES-THAT-TRANSFORM-AUDIENCES-Nancy-Duarte.md",
+        "sha256": "1efe59383c2deb3ea87603b6300b9c1b2f1efa1eba32caea4453d3fa5001c2b3",
+        "lines": 5320
+      },
+      "pdf": {
+        "filename": "resonate PRESENT VISUAL STORIES THAT TRANSFORM AUDIENCES (Nancy Duarte).pdf",
+        "sha256": "932dc43d0a322d188ace263cdab1937f6e6af4ffcbd30f0bd8a7c8c4f78502d3",
+        "pages": 299
+      },
+      "coverage": "Narrative architecture; nine chapters and coda. Named presentation form, audience/mentor roles, Big Idea, contrast, risk and S.T.A.R. methods retained.",
+      "compression_and_omissions": "Historical speech transcripts, biographies, image galleries and repeated motivational material compressed; not every sparkline visually inspected.",
+      "planned_reference_budget_text": 7800,
+      "actual_reference_estimated_tokens": 3930
+    },
+    {
+      "id": "duarte-slideology",
+      "reference": "references/reference-duarte-slideology.md",
+      "edition": "2008",
+      "section_count": 12,
+      "section_basis": "All twelve chapter responsibilities mapped",
+      "markdown": {
+        "filename": "Slide-ology-Nancy-Duarte.md",
+        "sha256": "49a688d4056064e20c685a5a857d480ed54a905ac9f22b9386d5002101381fd7",
+        "lines": 4085
+      },
+      "pdf": {
+        "filename": "Slide ology (Nancy Duarte).pdf",
+        "sha256": "9acf7a6cddd48b5370b4a27d7f452677b293334a2ad211bf7209a772d1f72503",
+        "pages": 276
+      },
+      "coverage": "All twelve chapter responsibilities mapped; diagram families, data rules, hierarchy, visual system, motion, templates and manifesto retained.",
+      "compression_and_omissions": "Repeated before/after galleries and software-era production details compressed. Guest advice remains attributed; contradictory slide-count examples are not universal rules.",
+      "planned_reference_budget_text": 8496,
+      "actual_reference_estimated_tokens": 4137
+    },
+    {
+      "id": "reynolds-presentation-zen",
+      "reference": "references/reference-reynolds-presentation-zen.md",
+      "edition": "Second edition, 2012",
+      "section_count": 11,
+      "section_basis": "Eleven chapters mapped",
+      "markdown": {
+        "filename": "Presentation-zen-simple-ideas-on-presentation-design-and-delivery-Reynolds-Garr.md",
+        "sha256": "3c2eb5b57b18304b1a9bc289a93415998e43b14a3dcf50a25aa07900c7d8181a",
+        "lines": 9176
+      },
+      "pdf": {
+        "filename": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+        "sha256": "af1b4d76479fa8e875b41ce3a0d1ca3ccd53b8dc7d2d9ac5a40a5e165e19b321",
+        "pages": 312
+      },
+      "coverage": "Eleven chapters mapped; preparation, two message questions, three artifacts, slideument critique, restraint, visual design and live delivery retained.",
+      "compression_and_omissions": "Gallery, guest essays and personal anecdotes selectively compressed; broad brain claims not adopted as scientific findings.",
+      "planned_reference_budget_text": 8275,
+      "actual_reference_estimated_tokens": 4278
+    },
+    {
+      "id": "muller-brockmann-grid-systems",
+      "reference": "references/reference-muller-brockmann-grid-systems.md",
+      "edition": "English/German edition, 1981",
+      "section_count": 24,
+      "section_basis": "Twenty-four substantive TOC topics grouped",
+      "markdown": {
+        "filename": "Grid-Systems-in-Graphic-Design---Raster-systeme-fur-die-visuelle-Gestaltung-Jose.md",
+        "sha256": "5915eeb80dc63592ee72a9c0eb2e0be6899aa833241947cd53e2af7681adfcac",
+        "lines": 12583
+      },
+      "pdf": {
+        "filename": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+        "sha256": "9d18815eef3057689fb7f5a28fe5ca3fccf9504ae262d6196376cbeb696d4cca",
+        "pages": 184
+      },
+      "coverage": "Twenty-four substantive TOC topics grouped; type/field coupling, construction, 8/20/32-field systems, corporate identity and spatial extensions retained.",
+      "compression_and_omissions": "Bilingual MD severely corrupted; English-region PDF recovery used. Historical specimen plates, exhibition dimensions and application gallery not exhaustively inspected.",
+      "planned_reference_budget_text": 10648,
+      "actual_reference_estimated_tokens": 3392
+    },
+    {
+      "id": "lupton-thinking-with-type",
+      "reference": "references/reference-lupton-thinking-with-type.md",
+      "edition": "Third revised and expanded edition, 2024",
+      "section_count": 3,
+      "section_basis": "Three main parts mapped with detailed operational topics: font selection, spacing, numerals, optical size, hierarchy, inclusion, scripts and serial grids.",
+      "markdown": {
+        "filename": "Thinking-with-Type-A-Critical-Guide-for-Designers-Writers-Editors-and-Students-T.md",
+        "sha256": "21561aff5eb0d3b69c5ff56ea46019933748bac00e3519ce7ead1d53a2bdc53c",
+        "lines": 5127
+      },
+      "pdf": {
+        "filename": "Thinking with Type A Critical Guide for Designers, Writers, Editors, and Students (Third Revised and Expanded Edition) (Ellen Lupton).pdf",
+        "sha256": "3ced578317a24cedc01d4b42d8322289c18a532b27e460915f34bb9537487d90",
+        "pages": 259
+      },
+      "coverage": "Three main parts mapped with detailed operational topics: font selection, spacing, numerals, optical size, hierarchy, inclusion, scripts and serial grids.",
+      "compression_and_omissions": "Detailed type history, drawing exercises and comprehensive treatment of each script omitted. Chinese and distance-reading examples checked; no claim of comprehensive multilingual expertise.",
+      "planned_reference_budget_text": 5898,
+      "actual_reference_estimated_tokens": 3936
+    },
+    {
+      "id": "williams-non-designers-design-book",
+      "reference": "references/reference-williams-non-designers-design-book.md",
+      "edition": "Fourth edition, 2015",
+      "section_count": 16,
+      "section_basis": "Sixteen top-level contents entries counted including supporting back matter",
+      "markdown": {
+        "filename": "The-non-designers-design-book-design-and-topographic-principles-for-the-visual-n.md",
+        "sha256": "2e631acca8e24b7520323e97739196b27c47a140ae07529822a5916bce4213c4",
+        "lines": 10546
+      },
+      "pdf": {
+        "filename": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+        "sha256": "5605f92b6608b3195b286ab0101a0dd763bc691dd27badfbb9dbf8d3fd6500e7",
+        "pages": 244
+      },
+      "coverage": "Sixteen top-level contents entries counted including supporting back matter; CRAP, concord/conflict/contrast, six categories and six type contrasts retained.",
+      "compression_and_omissions": "Color, punctuation and practical gallery compressed and explicitly marked. Quiz answers, specimen catalog and promotional material omitted. Strong beginner pairing doctrine preserved as a source claim.",
+      "planned_reference_budget_text": 9300,
+      "actual_reference_estimated_tokens": 4143
+    },
+    {
+      "id": "cairo-functional-art",
+      "reference": "references/reference-cairo-functional-art.md",
+      "edition": "Copyright 2013",
+      "section_count": 17,
+      "section_basis": "Nine method chapters plus eight profile sections mapped",
+      "markdown": {
+        "filename": "The-functional-art-an-introduction-to-information-graphics-and-visualization-Cai.md",
+        "sha256": "2c56025451c58e014b5426ba1ededbafbeab662440397a1b323d2e3954385f60",
+        "lines": 8792
+      },
+      "pdf": {
+        "filename": "The functional art  an introduction to information graphics and visualization (Cairo, Alberto, 1974- author).pdf",
+        "sha256": "04de7bbc8e59920ed1545d9dc99801eaac442e86d71b10e194d010ada70ed915",
+        "pages": 388
+      },
+      "coverage": "Nine method chapters plus eight profile sections mapped; function/form, Visualization Wheel, perception, design and interaction frameworks retained.",
+      "compression_and_omissions": "Profiles recorded as a group with attribution boundaries, not reconstructed from their headings. Cognitive claims are historical exposition, not current verification.",
+      "planned_reference_budget_text": 9485,
+      "actual_reference_estimated_tokens": 3950
+    },
+    {
+      "id": "tufte-envisioning-information",
+      "reference": "references/reference-tufte-envisioning-information.md",
+      "edition": "1990",
+      "section_count": 6,
+      "section_basis": "All six chapters mapped",
+      "markdown": {
+        "filename": "Envisioning-information-Tufte-Edward-R-1942-.md",
+        "sha256": "941947f4ed6725e1b64237aef0c5b4387e3b9069ae66f04c07d000e723f3268d",
+        "lines": 1503
+      },
+      "pdf": {
+        "filename": "Envisioning information (Tufte, Edward R., 1942-).pdf",
+        "sha256": "a1b0259ce62c81d1d6351cd133cf7434758d4171d4fa92fd807bc83f059571d4",
+        "pages": 127
+      },
+      "coverage": "All six chapters mapped; micro/macro, layers, small multiples, color functions and space-time relations retained.",
+      "compression_and_omissions": "Many historical image details cannot be recovered from MD alone. Selected PDF images inspected; no general claim of full gallery inspection.",
+      "planned_reference_budget_text": 6974,
+      "actual_reference_estimated_tokens": 3422
+    },
+    {
+      "id": "tufte-cognitive-style-powerpoint",
+      "reference": "references/reference-tufte-cognitive-style-powerpoint.md",
+      "edition": "September 2003 essay",
+      "section_count": 9,
+      "section_basis": "Nine argumentative blocks used for a short unchaptered essay",
+      "markdown": {
+        "filename": "The-cognitive-style-of-PowerPoint-pitching-out-corrupts-within-Tufte-Edward-R-19.md",
+        "sha256": "289f7413313bac5d61d122b269026b40c704a31c15c62da95917104b14453586",
+        "lines": 2095
+      },
+      "pdf": {
+        "filename": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+        "sha256": "bf3d6dd60e2305d8198737bb6595526b765d315ad1c80274582562f1fbd2a4f2",
+        "pages": 28
+      },
+      "coverage": "Nine argumentative blocks used for a short unchaptered essay; cognitive style, fragmentation, Columbia analysis, evidence comparison and handout alternative retained.",
+      "compression_and_omissions": "Supplied filename suggests a later subtitle, but internal title/copyright establish the 2003 essay. Later expanded-edition material is not claimed. Statistical polemic treated critically.",
+      "planned_reference_budget_text": 7800,
+      "actual_reference_estimated_tokens": 3122
+    },
+    {
+      "id": "knaflic-storytelling-with-data",
+      "reference": "references/reference-knaflic-storytelling-with-data.md",
+      "edition": "2015",
+      "section_count": 10,
+      "section_basis": "Ten chapters mapped",
+      "markdown": {
+        "filename": "Storytelling-with-Data-Cole-Nussbaumer-Knaflic.md",
+        "sha256": "18de9eead9a3ca6ab63dc6cb56bab87668ebef474fad338fde68fe78fe091931",
+        "lines": 5205
+      },
+      "pdf": {
+        "filename": "Storytelling with Data (Cole Nussbaumer Knaflic).pdf",
+        "sha256": "0b0fc994f61f2ba95f6748e8969d5de835cede87b0a251f9d8780ea6bfc184ad",
+        "pages": 284
+      },
+      "coverage": "Ten chapters mapped; context, chart choice, declutter, attention, design, story and case applications retained; six-step method and source boundaries retained.",
+      "compression_and_omissions": "Repeated worked examples compressed. Title verified as Storytelling with Data; Storytelling with You not blended in. No causal inference from visual emphasis.",
+      "planned_reference_budget_text": 8043,
+      "actual_reference_estimated_tokens": 3826
+    }
+  ]
+}

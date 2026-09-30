@@ -1,0 +1,628 @@
+{
+  "measurement_note": "Requested PDF pages and estimated emitted text tokens. Image rendering and viewing are separately listed in coverage.md. Some early bilingual text output was truncated.",
+  "requests": [
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 6,
+      "tokens": 0,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 7,
+      "tokens": 75,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 8,
+      "tokens": 265,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 9,
+      "tokens": 437,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 10,
+      "tokens": 0,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 21,
+      "tokens": 970,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 23,
+      "tokens": 1046,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 38,
+      "tokens": 877,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 42,
+      "tokens": 598,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 47,
+      "tokens": 590,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 57,
+      "tokens": 612,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 65,
+      "tokens": 746,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 66,
+      "tokens": 1037,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 3,
+      "tokens": 702,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 4,
+      "tokens": 716,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 5,
+      "tokens": 1023,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 6,
+      "tokens": 791,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 7,
+      "tokens": 910,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 8,
+      "tokens": 696,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 9,
+      "tokens": 702,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 10,
+      "tokens": 1919,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 13,
+      "tokens": 929,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 20,
+      "tokens": 1350,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 24,
+      "tokens": 667,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 26,
+      "tokens": 705,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 27,
+      "tokens": 517,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 2,
+      "tokens": 676,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 14,
+      "tokens": 421,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 15,
+      "tokens": 346,
+      "reason": "recovery"
+    },
+    {
+      "source": "The cognitive style of PowerPoint  pitching out corrupts within (Tufte, Edward R., 1942-).pdf",
+      "pdf_page": 22,
+      "tokens": 881,
+      "reason": "recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 14,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 520,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 15,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 529,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 34,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 562,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 43,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 407,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 61,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 528,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 76,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 441,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 80,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 538,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 91,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 500,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 101,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 296,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 137,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 452,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Grid Systems in Graphic Design - Raster systeme für die visuelle Gestaltung (Josef Müller-Brockmann).pdf",
+      "pdf_page": 178,
+      "region": "left 52%; English prose; figure OCR may remain",
+      "tokens": 397,
+      "reason": "targeted recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 15,
+      "tokens": 553,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 78,
+      "tokens": 413,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 79,
+      "tokens": 251,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 80,
+      "tokens": 593,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 81,
+      "tokens": 500,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 88,
+      "tokens": 490,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 89,
+      "tokens": 580,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 112,
+      "tokens": 821,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 130,
+      "tokens": 446,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 144,
+      "tokens": 596,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 145,
+      "tokens": 91,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 225,
+      "tokens": 463,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 237,
+      "tokens": 398,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 241,
+      "tokens": 544,
+      "reason": "recovery"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 263,
+      "tokens": 492,
+      "reason": "recovery"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 7,
+      "tokens": 341,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 8,
+      "tokens": 572,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 9,
+      "tokens": 609,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 169,
+      "tokens": 479,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 170,
+      "tokens": 262,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 171,
+      "tokens": 164,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 172,
+      "tokens": 313,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 199,
+      "tokens": 268,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 10,
+      "tokens": 424,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 11,
+      "tokens": 463,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 15,
+      "tokens": 458,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 17,
+      "tokens": 312,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 19,
+      "tokens": 306,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 34,
+      "tokens": 476,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 56,
+      "tokens": 411,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 70,
+      "tokens": 535,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 86,
+      "tokens": 436,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 150,
+      "tokens": 410,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 177,
+      "tokens": 257,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 189,
+      "tokens": 220,
+      "reason": "audit"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 66,
+      "tokens": 639,
+      "reason": "audit"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 74,
+      "tokens": 487,
+      "reason": "audit"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 171,
+      "tokens": 546,
+      "reason": "audit"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 249,
+      "tokens": 284,
+      "reason": "audit"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 287,
+      "tokens": 43,
+      "reason": "audit"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 293,
+      "tokens": 2,
+      "reason": "verification"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 294,
+      "tokens": 0,
+      "reason": "verification"
+    },
+    {
+      "source": "Presentation zen  simple ideas on presentation design and delivery (Reynolds, Garr).pdf",
+      "pdf_page": 295,
+      "tokens": 378,
+      "reason": "verification"
+    },
+    {
+      "source": "Thinking with Type A Critical Guide for Designers, Writers, Editors, and Students (Third Revised and Expanded Edition) (Ellen Lupton).pdf",
+      "pdf_page": 150,
+      "tokens": 505,
+      "reason": "verification"
+    },
+    {
+      "source": "Thinking with Type A Critical Guide for Designers, Writers, Editors, and Students (Third Revised and Expanded Edition) (Ellen Lupton).pdf",
+      "pdf_page": 158,
+      "tokens": 290,
+      "reason": "verification"
+    },
+    {
+      "source": "Thinking with Type A Critical Guide for Designers, Writers, Editors, and Students (Third Revised and Expanded Edition) (Ellen Lupton).pdf",
+      "pdf_page": 222,
+      "tokens": 204,
+      "reason": "verification"
+    },
+    {
+      "source": "Thinking with Type A Critical Guide for Designers, Writers, Editors, and Students (Third Revised and Expanded Edition) (Ellen Lupton).pdf",
+      "pdf_page": 236,
+      "tokens": 231,
+      "reason": "verification"
+    },
+    {
+      "source": "Thinking with Type A Critical Guide for Designers, Writers, Editors, and Students (Third Revised and Expanded Edition) (Ellen Lupton).pdf",
+      "pdf_page": 242,
+      "tokens": 571,
+      "reason": "verification"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 178,
+      "tokens": 389,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 179,
+      "tokens": 346,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 180,
+      "tokens": 361,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 181,
+      "tokens": 334,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 182,
+      "tokens": 248,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 183,
+      "tokens": 216,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 184,
+      "tokens": 315,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 194,
+      "tokens": 414,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 198,
+      "tokens": 382,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 202,
+      "tokens": 208,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 206,
+      "tokens": 611,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 210,
+      "tokens": 278,
+      "reason": "audit"
+    },
+    {
+      "source": "The non-designers design book  design and topographic principles for the visual novice (Williams, Robin, 1953- author).pdf",
+      "pdf_page": 221,
+      "tokens": 210,
+      "reason": "audit"
+    }
+  ]
+}

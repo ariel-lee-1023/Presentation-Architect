@@ -1,0 +1,9 @@
+{
+  "status": "unrun",
+  "reason": "No configured isolated model evaluation endpoint/model. No independent behavioral improvement claim. Editorial review is separate.",
+  "suite_sha256": "efcccec757f78c957e5e073e68560ffbee8797d7c50dea6def869f8c78456769",
+  "content_hash": "sha256:be0f5f9eb7060355b0f220c8c8a8022e510001c118478c8ab494ab94fe1db543",
+  "suite_schema": "valid",
+  "model_runs": 0,
+  "required_acceptance_outstanding": true
+}

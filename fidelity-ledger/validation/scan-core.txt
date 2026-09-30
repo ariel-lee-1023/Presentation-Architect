@@ -1,0 +1,2 @@
+clean — no injected-instruction patterns in SKILL.md
+(advisory: a clean report is not a guarantee)

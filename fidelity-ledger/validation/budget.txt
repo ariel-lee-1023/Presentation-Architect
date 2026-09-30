@@ -1,0 +1,47 @@
+reference file                                    sec depth     type     tokens   budget      cap   delta
+reference-cairo-functional-art.md                  17 study     text       3950     9485    14000  -58.4%
+reference-duarte-resonate.md                        9 study     text       3930     7800    14000  -49.6%
+reference-duarte-slideology.md                     12 study     text       4137     8496    14000  -51.3%
+reference-knaflic-storytelling-with-data.md        10 study     text       3826     8043    14000  -52.4%
+reference-lupton-thinking-with-type.md              3 study     text       3936     5898    14000  -33.3%
+reference-muller-brockmann-grid-systems.md         24 study     text       3392    10648    14000  -68.1%
+reference-reynolds-presentation-zen.md             11 study     text       4278     8275    14000  -48.3%
+reference-tufte-cognitive-style-powerpoint.md       9 study     text       3122     7800    14000  -60.0%
+reference-tufte-envisioning-information.md          6 study     text       3422     6974    14000  -50.9%
+reference-williams-non-designers-design-book.md    16 study     text       4143     9300    14000  -55.5%
+
+SKILL.md (master)                                     N=10      C=6        3574     4050     4500  -11.8%
+
+Density check — Frameworks & Structure share (measured band 72–77%):
+  reference-cairo-functional-art.md                83.2%
+  reference-duarte-resonate.md                     82.4%
+  reference-duarte-slideology.md                   84.3%
+  reference-knaflic-storytelling-with-data.md      81.9%
+  reference-lupton-thinking-with-type.md           67.1%
+  reference-muller-brockmann-grid-systems.md       79.1%
+  reference-reynolds-presentation-zen.md           71.8%
+  reference-tufte-cognitive-style-powerpoint.md    76.1%
+  reference-tufte-envisioning-information.md       80.4%
+  reference-williams-non-designers-design-book.md  73.0%
+
+WARN   reference-cairo-functional-art.md: ~3950 tok is 58% under its 9485 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-duarte-resonate.md: ~3930 tok is 50% under its 7800 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-duarte-slideology.md: ~4137 tok is 51% under its 8496 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-knaflic-storytelling-with-data.md: ~3826 tok is 52% under its 8043 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-lupton-thinking-with-type.md: ~3936 tok is 33% under its 5898 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-muller-brockmann-grid-systems.md: ~3392 tok is 68% under its 10648 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-reynolds-presentation-zen.md: ~4278 tok is 48% under its 8275 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-tufte-cognitive-style-powerpoint.md: ~3122 tok is 60% under its 7800 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-tufte-envisioning-information.md: ~3422 tok is 51% under its 6974 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+WARN   reference-williams-non-designers-design-book.md: ~4143 tok is 55% under its 9300 budget. The budget is a target, not a floor — fine if coverage is complete, but check that every Step 3 item is present or explicitly recorded as dropped.
+
+11 file(s) checked — 0 error(s), 10 warning(s)

@@ -1,0 +1,9 @@
+{
+  "status": "suite-schema-valid",
+  "tasks_by_partition": {
+    "development": 6,
+    "final": 4
+  },
+  "model_runs": 0,
+  "behavioral_acceptance": "unrun"
+}

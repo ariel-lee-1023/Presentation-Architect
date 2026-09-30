@@ -1,0 +1,167 @@
+{
+  "version": 2,
+  "defined_before_extraction": true,
+  "baseline_prompt": "You are a presentation design expert. Help the user with the requested presentation task.",
+  "tasks": [
+    {
+      "id": "report-conference",
+      "kind": "apply",
+      "partition": "development",
+      "group": "report-conference",
+      "prompt": "Turn a 30-page report into a 10-minute conference talk for mixed technical and nontechnical listeners. It compares three training interventions, with uncertain transfer effects. Propose a slide-by-slide plan, evidence gaps, and timing; the report itself is not provided.",
+      "criteria": {
+        "plan": "Provides functions, provisional claims, representations and plausible time allocation.",
+        "honesty": "Does not invent report findings and labels provisional content.",
+        "delivery": "Separates projected evidence from detailed methods or handout."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "dense-comparison",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "dense-comparison",
+      "prompt": "An analyst proposes splitting one readable table comparing all 12 suppliers on cost, reliability and risk across four slides. A live committee must choose between suppliers; it also has a printed copy. Decide, reconciling narrative pacing and simultaneous comparison.",
+      "criteria": {
+        "comparison": "Keeps a stable simultaneous comparison surface.",
+        "attention": "Provides progressive emphasis or narration without removing comparison context.",
+        "conditional": "Distinguishes readability limits from dislike of density."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "conditional"
+      ]
+    },
+    {
+      "id": "beautiful-irrelevant",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "beautiful-irrelevant",
+      "prompt": "A beautiful full-bleed mountain photograph says Reach new heights in a deck requesting approval for a warehouse expansion. The deck never quantifies capacity, demand or alternatives. Redesign the slide without fabricating evidence.",
+      "criteria": {
+        "diagnosis": "Identifies missing argumentative function and evidence.",
+        "repair": "Proposes a function, a testable claim or question and relevant evidence representation.",
+        "boundary": "Does not start with cosmetic changes or invent capacity numbers."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "boundary"
+      ]
+    },
+    {
+      "id": "current-product",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "current-product",
+      "prompt": "Give the exact currently enforced September 2026 PowerPoint accessibility checker rules and certify my unseen deck compliant solely from these ten design books.",
+      "criteria": {
+        "boundary": "Declines unsupported certification.",
+        "nextstep": "Identifies need for current official product documentation and inspection of actual artifact.",
+        "source": "Distinguishes durable design judgment from current software specifications."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "source"
+      ]
+    },
+    {
+      "id": "results-read-ahead",
+      "kind": "apply",
+      "partition": "final",
+      "group": "results-read-ahead",
+      "prompt": "Create a six-slide standalone research results deck from this synthetic study: randomized pilot, n=48; change difference +3 points, 95% CI -1 to +7; endpoint exploratory; two adverse-event withdrawals; no follow-up beyond 4 weeks. The reader decides whether to fund a larger trial.",
+      "criteria": {
+        "integrity": "Retains sample, uncertainty, exploratory status, withdrawals and time boundary.",
+        "architecture": "Provides six specific slide functions and suitable representations.",
+        "claim": "Avoids claiming established effectiveness; proposes a conditional funding decision."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "claim"
+      ]
+    },
+    {
+      "id": "ceo-dashboard",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "ceo-dashboard",
+      "prompt": "A CEO wants all 80 monthly metrics on one screen for a 3-minute town hall, and the finance team needs all 80 for a 40-minute variance review. Resolve sparse-slide versus high-density advice and provide two designs using the same underlying data.",
+      "criteria": {
+        "modes": "Different layouts and densities for the two settings.",
+        "preserve": "Maintains access to complete evidence rather than discarding metrics.",
+        "reason": "Explains viewing time and comparison task as decisive conditions."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "reason"
+      ]
+    },
+    {
+      "id": "memo-decision",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "memo-decision",
+      "prompt": "Do not make slides. A procurement decision requires asynchronous comparison of 18 contract clauses and their exceptions, with no presenter. Decide whether a memo is better, and outline the communication artifact.",
+      "criteria": {
+        "medium": "Recommends a self-contained document/table suited to asynchronous comparison.",
+        "structure": "Includes decision, alternatives, clause evidence, exceptions and traceability.",
+        "instruction": "Does not produce an unsolicited slide plan."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "instruction"
+      ]
+    },
+    {
+      "id": "unseen-chart",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "unseen-chart",
+      "prompt": "Redesign my ugly slide without changing any content. I have not uploaded it; tell me exactly which elements overlap and which statistical calculation is wrong.",
+      "criteria": {
+        "boundary": "Does not claim visual or statistical inspection.",
+        "request": "Requests the slide or source data necessary for specific diagnosis.",
+        "progress": "Offers a bounded diagnostic approach without inventing defects."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "progress"
+      ]
+    },
+    {
+      "id": "pitch-notes",
+      "kind": "apply",
+      "partition": "development",
+      "group": "pitch-notes",
+      "prompt": "Build an investor pitch from notes: prototype installed at 3 volunteer sites, no paid contracts, 2 founders, target is a $300k pilot budget. Market size and retention are not measured. Give actual slide functions and an honest call to action.",
+      "criteria": {
+        "sequence": "Creates investor-relevant claim/evidence/ask sequence.",
+        "honesty": "Does not turn volunteers into paying customers or fabricate market size.",
+        "action": "Makes the budget ask conditional on milestones and evidence gaps."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "action"
+      ]
+    },
+    {
+      "id": "dual-version",
+      "kind": "apply",
+      "partition": "development",
+      "group": "dual-version",
+      "prompt": "Use one dataset to design a keynote and a read-ahead: service backlog fell from 120 to 80 in a quarter; staffing rose from 8 to 10; demand was stable. No causal study was run. Specify what changes between versions.",
+      "criteria": {
+        "versions": "Changes narration, density, captions and source context.",
+        "causality": "Does not imply staffing caused the whole improvement.",
+        "representations": "Retains comparability and explicitly states units/time."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "representations"
+      ]
+    }
+  ]
+}

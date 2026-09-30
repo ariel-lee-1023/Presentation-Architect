@@ -1,0 +1,66 @@
+{
+  "resonate": {
+    "unique_lines": 1393,
+    "repeated_lines": 228,
+    "input_tokens": 33361,
+    "unresolved": [],
+    "coverage_fraction": 0.2618421052631579,
+    "budget_alert": true
+  },
+  "Slide": {
+    "unique_lines": 741,
+    "repeated_lines": 0,
+    "input_tokens": 12395,
+    "unresolved": [],
+    "coverage_fraction": 0.1813953488372093,
+    "budget_alert": false
+  },
+  "Storytelling": {
+    "unique_lines": 1029,
+    "repeated_lines": 41,
+    "input_tokens": 20151,
+    "unresolved": [],
+    "coverage_fraction": 0.19769452449567723,
+    "budget_alert": false
+  },
+  "The-functional": {
+    "unique_lines": 836,
+    "repeated_lines": 0,
+    "input_tokens": 16759,
+    "unresolved": [],
+    "coverage_fraction": 0.09508644222020018,
+    "budget_alert": false
+  },
+  "Envisioning": {
+    "unique_lines": 322,
+    "repeated_lines": 36,
+    "input_tokens": 15623,
+    "unresolved": [],
+    "coverage_fraction": 0.21423819028609448,
+    "budget_alert": false
+  },
+  "Presentation": {
+    "unique_lines": 158,
+    "repeated_lines": 0,
+    "input_tokens": 1966,
+    "unresolved": [],
+    "coverage_fraction": 0.017218831734960766,
+    "budget_alert": false
+  },
+  "Thinking": {
+    "unique_lines": 662,
+    "repeated_lines": 0,
+    "input_tokens": 14962,
+    "unresolved": [],
+    "coverage_fraction": 0.12912034328067096,
+    "budget_alert": false
+  },
+  "The-non": {
+    "unique_lines": 107,
+    "repeated_lines": 0,
+    "input_tokens": 1216,
+    "unresolved": [],
+    "coverage_fraction": 0.010146026929641571,
+    "budget_alert": false
+  }
+}

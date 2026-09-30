@@ -1,0 +1,6 @@
+usage: acceptance_suite.py [-h] [--suite SUITE] [--results RESULTS]
+                           [--json JSON] [--print-hash]
+                           [--prediction-run PREDICTION_RUN]
+                           [--grade-run GRADE_RUN]
+                           skill_root
+acceptance_suite.py: error: --results or verified runner paths required

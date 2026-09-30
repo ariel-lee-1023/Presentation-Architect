@@ -1,0 +1,41 @@
+{
+  "structure": {
+    "exit_code": 0,
+    "output": "structure.txt"
+  },
+  "budget": {
+    "exit_code": 0,
+    "output": "budget.txt"
+  },
+  "scan-core": {
+    "exit_code": 0,
+    "output": "scan-core.txt"
+  },
+  "scan-references": {
+    "exit_code": 0,
+    "output": "scan-references.txt"
+  },
+  "reading": {
+    "exit_code": 0,
+    "output": "reading.txt"
+  },
+  "runtime-hash": {
+    "exit_code": 0,
+    "output": "runtime-hash.txt"
+  },
+  "acceptance": {
+    "exit_code": 2,
+    "output": "acceptance.txt"
+  },
+  "links-and-layout": {
+    "local_links_checked": 40,
+    "errors": [],
+    "reference_count": 10,
+    "symlink_target": "../.."
+  },
+  "notes": [
+    "Behavioral acceptance is unrun, not passing.",
+    "Budget under-target warnings were reviewed against coverage.md.",
+    "Reading summary accounts for requested spans/emitted estimates, not verified semantic completeness."
+  ]
+}

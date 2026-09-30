@@ -1,0 +1,2 @@
+clean — no injected-instruction patterns in references
+(advisory: a clean report is not a guarantee)

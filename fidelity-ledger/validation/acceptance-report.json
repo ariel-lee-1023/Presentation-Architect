@@ -1,0 +1,14 @@
+{
+  "status": "unrun",
+  "origin": "maintainer status record, not a passing acceptance_suite report",
+  "reason": "The acceptance verifier requires real result records; invocation exited 2 because no results exist. See acceptance.txt.",
+  "suite_schema": {
+    "status": "suite-schema-valid",
+    "tasks_by_partition": {
+      "development": 6,
+      "final": 4
+    },
+    "model_runs": 0,
+    "behavioral_acceptance": "unrun"
+  }
+}
